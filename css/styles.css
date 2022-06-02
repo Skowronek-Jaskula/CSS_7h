@@ -1,51 +1,28 @@
 /* stylelint-disable color-named */
 /* stylelint-disable unit-disallowed-list */
 body {
-  background-color: #c9d5e2;
+  background-color: #c9d5e3;
+  background-image: url("../imgs/hero-background.png");
+  background-position: center;
+  background-size: 32%;
   font-family: "Source Sans Pro", sans-serif;
-  margin: 24px auto;
+  margin: 0 auto;
 }
 
-section {
-  display: grid;
-  gap: 24px;
-  grid-template-columns: repeat(4, 240px);
-  justify-content: center;
+* {
+  box-sizing: border-box;
 }
 
-div {
-  align-items: center;
+main {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
-
-
-
-
-
-p {
-  margin: 0 0 24px;
-}
-
-h5 {
-  margin: 24px 0;
-}
-
-button {
-  border: 0;
-  padding: 8px 24px;
-}
-
-.card {
-  background-color: #b3d16d;
-  border: solid 2px white;
-  border-radius: 4px;
-  padding: 24px;
-}
-
-.card--onion {
-  background-color: #862843;
-  color: white;
+h1 {
+  background-color: white;
+  font-size: 80px;
+  margin: auto;
+  padding: 20px 50px;
 }

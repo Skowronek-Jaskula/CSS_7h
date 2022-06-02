@@ -1,10 +1,12 @@
 {
+  "liveServer.settings.port": 5501,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "scss.validate": true,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.prettier": true,
     "source.fixAll.stylelint": true
-  },
-  "stylelint.configFile": "stylelint.config.js",
-  "liveServer.settings.port": 5501,
-  "editor.fontSize": 16,
-  "editor.tabSize": 2
+  }
 }
