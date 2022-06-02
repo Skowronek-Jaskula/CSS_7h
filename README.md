@@ -1,1 +1,1 @@
-# Modern Web Dev - stylowanie
+# Modern Web Dev - styling
