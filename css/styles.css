@@ -6,6 +6,10 @@ body {
   margin: 24px auto;
 }
 
+* {
+  box-sizing: content-box;
+}
+
 section {
   display: grid;
   gap: 24px;
@@ -19,6 +23,7 @@ div {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 
 
@@ -45,4 +50,7 @@ button {
   padding: 24px;
 }
 
-/* bordowy: #862843; */
+.card--magenta {
+  background-color: #862843;
+  color: white;
+}
