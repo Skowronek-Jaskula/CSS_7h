@@ -1,5 +1,5 @@
-# Modern Web Dev - stylowanie
+# Modern Web Dev - styling
 
-cel pracy w tej części:
+The branch target:
 
-![alt text](targets/branch-6-target.jpg?raw=true)
+![alt text](targets/branch-7-target.jpg?raw=true)
