@@ -4,14 +4,30 @@ module.exports = {
   extends: [
     "stylelint-config-standard",
     "stylelint-config-sass-guidelines",
+    "stylelint-config-recommended-scss",
     "stylelint-config-prettier",
   ],
   rules: {
     "function-no-unknown": [
-      true, {
-        ignoreFunctions: ["/^map./", "/^math./"]
-      }
+      true,
+      {
+        ignoreFunctions: [
+          "/map.*/",
+          "/math.*/",
+          "/string.*/",
+          "to-rem",
+          "if",
+          "get-specified-line-height-offset",
+          "strip-unit",
+          "to-scale",
+          "/svg-url-*/",
+          "scale-font-metrics",
+          "str-replace",
+          "ag-derived",
+        ],
+      },
     ],
+    "number-max-precision": 10,
     "unit-disallowed-list": [
       ["cm", "mm", "in", "px", "pt", "pc", "em"],
       {
@@ -25,11 +41,11 @@ module.exports = {
     "max-nesting-depth": [
       4,
       {
-        ignore: ["pseudo-classes"],
+        ignore: ["pseudo-classes", "blockless-at-rules"],
       },
     ],
     // disable rule for the project's icon font
-    "font-family-no-missing-generic-family-keyword": true,
+    "font-family-no-missing-generic-family-keyword": [true],
     "property-no-vendor-prefix": [
       true,
       {
@@ -70,7 +86,13 @@ module.exports = {
 
     // default compound selectors depth from 3 to 4
     "selector-max-compound-selectors": 4,
-    "selector-type-no-unknown": true,
+    "selector-type-no-unknown": [
+      true,
+      {
+        // ignore NG Bootstrap (`ngb-`) types, because they are used on purpose
+        ignoreTypes: ["/^ngb-/"],
+      },
+    ],
     "selector-pseudo-class-no-unknown": [
       true,
       {
@@ -78,5 +100,4 @@ module.exports = {
       },
     ],
   },
-  "no-invalid-position-at-import-rule": null,
 };
