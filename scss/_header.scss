@@ -14,9 +14,9 @@
     &-nav {
       display: flex;
       gap: 30px;
-      a {
+      &-item {
         color: white;
-        &.active {
+        &--active {
           font-weight: 600;
           text-decoration: none;
         }
