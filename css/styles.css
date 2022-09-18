@@ -1,5 +1,11 @@
-/* stylelint-disable color-named */
 /* stylelint-disable unit-disallowed-list */
+html {
+  font-size: 16px;
+}
+/* stylelint-enable unit-disallowed-list */
+
+/* stylelint-disable color-named */
+
 body {
   background-color: #c9d5e3;
   background-image: url("../imgs/hero-background.png");
@@ -21,8 +27,8 @@ main {
 }
 
 h1 {
-  background-color: white;
-  font-size: 80px;
+  background-color: #fff;
+  font-size: 5rem;
   margin: auto;
-  padding: 20px 50px;
+  padding: 1.25rem 3rem;
 }
