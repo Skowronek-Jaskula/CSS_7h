@@ -4,13 +4,8 @@ html {
 }
 /* stylelint-enable unit-disallowed-list */
 
-/* stylelint-disable color-named */
-
 body {
-  background-color: #c9d5e3;
-  background-image: url("../imgs/hero-background.png");
-  background-position: center;
-  background-size: 32%;
+  background-color: #f1faee;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0 auto;
 }
@@ -19,16 +14,47 @@ body {
   box-sizing: border-box;
 }
 
-main {
-  display: flex;
-  height: 100%;
-  position: absolute;
+img {
   width: 100%;
 }
-
 h1 {
   background-color: #fff;
+  color: #2c2c2c;
   font-size: 5rem;
-  margin: auto;
-  padding: 1.25rem 3rem;
+  padding: 1.5rem 3rem;
+}
+
+.card {
+  background-color: #b3d16d;
+  border: solid 2px white;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.card--magenta {
+  background-color: #862843;
+  color: white;
+}
+
+section {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 240px);
+  justify-content: center;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 3rem);
+  align-items: center;
+  justify-content: center;
+  background-image: url("../imgs/hero-background.png");
+  background-size: 340px;
 }
