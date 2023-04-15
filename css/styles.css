@@ -62,3 +62,42 @@ main {
   background-image: url("../imgs/hero-background.png");
   background-size: 340px;
 }
+
+.card {
+  background-color: #b3d16d;
+  border: solid 2px white;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.card--magenta {
+  background-color: #862843;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+}
+
+section {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 240px);
+  justify-content: center;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 3rem);
+  align-items: center;
+  justify-content: center;
+  background-image: url("../imgs/hero-background.png");
+  background-size: 340px;
+}
