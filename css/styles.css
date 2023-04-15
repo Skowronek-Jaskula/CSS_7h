@@ -24,11 +24,9 @@ div {
   justify-content: center;
 }
 
-
-
-
-
-
+img {
+  width: 100%;
+}
 
 p {
   margin: 0 0 24px;
