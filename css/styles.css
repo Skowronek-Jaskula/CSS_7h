@@ -1,7 +1,7 @@
 /* stylelint-disable color-named */
 /* stylelint-disable unit-disallowed-list */
 body {
-  background-color: #c9d5e2;
+  background-color: #f1faee;
   font-family: "Source Sans Pro", sans-serif;
   margin: 24px auto;
 }
@@ -19,11 +19,6 @@ div {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-
-
-
-
 
 p {
   margin: 0 0 24px;
