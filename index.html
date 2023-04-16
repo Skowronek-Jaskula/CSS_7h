@@ -18,14 +18,18 @@
     <header class="header">
       <div class="header__container">
         <nav class="header__container-nav">
-          <a href="#" class="header__container-nav-item header__container-nav-item--active">HOME</b></a>
+          <a
+            href="#"
+            class="header__container-nav-item header__container-nav-item--active"
+            >HOME</a
+          >
           <a href="#" class="header__container-nav-item">ABOUT</a>
           <a href="#" class="header__container-nav-item">CONTACT</a>
         </nav>
         <div class="header__container-media">
-          <img src="./imgs/insta.png" alt="">
-          <img src="./imgs/fb.png" alt="">
-          <img src="./imgs/twitter.png" alt="">
+          <img src="./imgs/insta.png" alt="" />
+          <img src="./imgs/fb.png" alt="" />
+          <img src="./imgs/twitter.png" alt="" />
         </div>
       </div>
     </header>
@@ -34,38 +38,50 @@
         <div class="card">
           <img src="./imgs/vegetables1.jpg" />
           <h5>Card title 1</h5>
-          <p>Example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>
+            Example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
           <button onclick="changeBckgr(event)">Button</button>
         </div>
 
         <div class="card">
           <img src="./imgs/vegetables2.jpg" />
           <h5>Card title 2</h5>
-          <p>Example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>
+            Example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
           <button onclick="changeBckgr(event)">Button</button>
         </div>
 
         <div class="card card--magenta">
           <img src="./imgs/vegetables3.jpg" />
           <h5>Card title 3</h5>
-          <p>Example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>
+            Example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
           <button onclick="changeBckgr(event)">Button</button>
         </div>
 
         <div class="card">
           <img src="./imgs/vegetables4.jpg" />
           <h5>Card title 4</h5>
-          <p>Example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>
+            Example text to build on the card title and make up the bulk of the
+            card's content.
+          </p>
           <button onclick="changeBckgr(event)">Button</button>
         </div>
       </section>
-    </main> 
+    </main>
   </body>
   <script>
     function changeBckgr(el) {
       const child = el.target;
       const parent = child.parentNode;
-      parent.style.backgroundColor = "red"
+      parent.style.backgroundColor = "red";
     }
   </script>
 </html>
