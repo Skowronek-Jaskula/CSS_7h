@@ -1,6 +1,8 @@
-* {
-  box-sizing: border-box;
+/* stylelint-disable unit-disallowed-list */
+html {
+  font-size: 16px;
 }
+/* stylelint-enable unit-disallowed-list */
 
 body {
   background-color: #f1faee;
@@ -8,58 +10,94 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  background-color: #2c2c2c;
-  display: flex;
-  height: 48px;
+* {
+  box-sizing: border-box;
 }
+
+header {
+  background-color: #862843;
+  display: flex;
+  height: 3rem;
+}
+
 .header__container {
   align-items: center;
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
   margin: auto;
-  max-width: 1000px;
+  max-width: 65rem;
 }
+
 .header__container-nav {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
 }
-.header__container-nav a {
-  color: white;
+
+.header__container-media {
+  display: flex;
+  gap: 1rem;
 }
-.header__container-nav a.active {
+
+.header__container-nav-item {
+  color: #fff;
+}
+
+.header__container-nav-item--active {
   font-weight: 600;
   text-decoration: none;
 }
-.header__container-media {
+
+h1 {
+  background-color: #fff;
+  color: #2c2c2c;
+  font-size: 5rem;
+  padding: 1.5rem 3rem;
+}
+main {
   display: flex;
-  gap: 10px;
+  height: calc(100vh - 3rem);
+  align-items: center;
+  justify-content: center;
+  background-image: url("../imgs/hero-background.png");
+  background-size: 340px;
 }
 
-.hero {
-  align-items: center;
-  background-image: url(../imgs/lines.png);
-  background-position: center;
-  background-size: 600px;
-  display: flex;
-  height: calc(100vh - 48px - 250px);
-  justify-content: center;
+.card {
+  background-color: #b3d16d;
+  border: solid 2px white;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.card--magenta {
+  background-color: #862843;
+  color: white;
+}
+
+.card img {
   width: 100%;
 }
-.hero h1 {
-  background-color: white;
-  color: #2c2c2c;
-  font-size: 80px;
-  padding: 20px 50px;
+
+section {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 240px);
+  justify-content: center;
 }
 
-footer {
-  background-color: #6a6a6a;
-  color: white;
-  height: 250px;
-  padding: 10px 100px;
-  text-align: center;
+div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-/*# sourceMappingURL=styles.css.map */
+main {
+  display: flex;
+  height: calc(100vh - 3rem);
+  align-items: center;
+  justify-content: center;
+  background-image: url("../imgs/hero-background.png");
+  background-size: 340px;
+}
