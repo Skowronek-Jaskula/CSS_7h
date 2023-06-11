@@ -24,7 +24,7 @@
             Example text to build on the card title and make up the bulk of the
             card's content.
           </p>
-          <button onclick="changeBckgr(event)">Button</button>
+          <button class="card__button">Button</button>
         </div>
 
         <div class="card">
@@ -34,7 +34,7 @@
             Example text to build on the card title and make up the bulk of the
             card's content.
           </p>
-          <button onclick="changeBckgr(event)">Button</button>
+          <button class="card__button">Button</button>
         </div>
 
         <div class="card card--magenta">
@@ -44,7 +44,7 @@
             Example text to build on the card title and make up the bulk of the
             card's content.
           </p>
-          <button onclick="changeBckgr(event)">Button</button>
+          <button class="card__button">Button</button>
         </div>
 
         <div class="card">
@@ -54,16 +54,9 @@
             Example text to build on the card title and make up the bulk of the
             card's content.
           </p>
-          <button onclick="changeBckgr(event)">Button</button>
+          <button class="card__button">Button</button>
         </div>
       </section>
     </main>
   </body>
-  <script>
-    function changeBckgr(el) {
-      const child = el.target;
-      const parent = child.parentNode;
-      parent.style.backgroundColor = "red";
-    }
-  </script>
 </html>
