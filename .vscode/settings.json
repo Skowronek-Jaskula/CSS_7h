@@ -3,10 +3,10 @@
   "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "scss.validate": true,
+  "scss.validate": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.prettier": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.prettier": false,
+    "source.fixAll.stylelint": false
   }
 }

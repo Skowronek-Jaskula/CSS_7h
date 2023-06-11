@@ -1,7 +1,5 @@
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable unit-disallowed-list */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 24px auto;
 }
 
@@ -19,7 +17,7 @@ div {
   justify-content: center;
 }
 
-/* body background-color: #c9d5e2; */
+/* body background-color: #d2e2c9; */
 
 /* green: #B3D16D; */
 
