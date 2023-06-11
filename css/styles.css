@@ -1,5 +1,3 @@
-/* stylelint-disable color-named */
-/* stylelint-disable unit-disallowed-list */
 body {
   background-color: #f1faee;
   font-family: "Source Sans Pro", sans-serif;
@@ -14,13 +12,6 @@ section {
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(4, 240px);
-  justify-content: center;
-}
-
-div {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 

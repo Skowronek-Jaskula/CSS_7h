@@ -12,57 +12,38 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/flexbox.css" />
   </head>
 
   <body>
     <main>
-      <section>
-        <div class="card">
-          <img src="./imgs/vegetables1.jpg" />
-          <h5>Card title 1</h5>
-          <p>
-            Example text to build on the card title and make up the bulk of the
-            card's content.
-          </p>
-          <button onclick="changeBckgr(event)">Button</button>
-        </div>
+      <ul class="flex">
+        <li class="flex__item">Homepage</li>
+        <li class="flex__item">About</li>
+        <li class="flex__item">Blog</li>
+        <li class="flex__item">The longer <b>title</b> of nav list element</li>
+        <li class="flex__item">Contact</li>
+      </ul>
 
-        <div class="card">
-          <img src="./imgs/vegetables2.jpg" />
-          <h5>Card title 2</h5>
-          <p>
-            Example text to build on the card title and make up the bulk of the
-            card's content.
-          </p>
-          <button onclick="changeBckgr(event)">Button</button>
+      <div class="equal-columns">
+        <div class="equal-columns__item">
+          <p>flex-direction</p>
+          <p>flex-wrap</p>
+          <p>align-items (cross axis property)</p>
+          <p>justify-content (main axis property)</p>
         </div>
-
-        <div class="card card--magenta">
-          <img src="./imgs/vegetables3.jpg" />
-          <h5>Card title 3</h5>
-          <p>
-            Example text to build on the card title and make up the bulk of the
-            card's content.
-          </p>
-          <button onclick="changeBckgr(event)">Button</button>
+        <div class="equal-columns__item">
+          <p>flex-grow</p>
+          <p>flex-shrink</p>
+          <p>flex-basis</p>
+          <p>flex</p>
+          <p>order</p>
         </div>
-
-        <div class="card">
-          <img src="./imgs/vegetables4.jpg" />
-          <h5>Card title 4</h5>
-          <p>
-            Example text to build on the card title and make up the bulk of the
-            card's content.
-          </p>
-          <button onclick="changeBckgr(event)">Button</button>
+        <div class="equal-columns__item">
+          <p>main axis (just a term)</p>
+          <p>cross axis (just a term)</p>
         </div>
-      </section>
+      </div>
     </main>
   </body>
-  <script>
-    function changeBckgr($event) {
-      const parentEl = $event.target.parentElement;
-      parentEl.style.background = "red";
-    }
-  </script>
 </html>

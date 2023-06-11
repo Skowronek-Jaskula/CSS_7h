@@ -1,0 +1,50 @@
+.flex {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  outline: 1px solid blueviolet;
+}
+
+.flex__item {
+  background: pink;
+}
+
+.equal-columns {
+  margin-top: 100px;
+  border: solid thin purple;
+  display: none;
+}
+.equal-columns__item {
+  background-color: lime;
+  border: solid thin black;
+}
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+
+/*   */
+.flex {
+}
+
+.flex__item {
+}
+
+.equal-columns {
+}
+
+.equal-columns__item {
+}
