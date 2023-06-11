@@ -1,0 +1,43 @@
+.nav {
+  align-items: center;
+  box-shadow: 0 0 40px 40px rgb(0 0 0 / 10%);
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 300ms ease-out;
+  &__control-input {
+    position: fixed;
+    right: 0;
+    z-index: 2;
+
+    &::after {
+      align-items: center;
+      background-color: white;
+      display: flex;
+      font-size: 30px;
+      height: 60px;
+      justify-content: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 60px;
+    }
+    &:not(:checked)::after {
+      content: "☰";
+    }
+    &:checked::after {
+      content: "X";
+    }
+    &:not(:checked) ~ .nav {
+      opacity: 0;
+      width: 0;
+    }
+    &:checked ~ .nav {
+      background-color: white;
+      width: 360px;
+    }
+  }
+}

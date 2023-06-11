@@ -1,0 +1,10 @@
+.card {
+  background-color: #b3d16d;
+  border: solid 2px white;
+  border-radius: 4px;
+  padding: 24px;
+  &--magenta {
+    background-color: #862843;
+    color: white;
+  }
+}

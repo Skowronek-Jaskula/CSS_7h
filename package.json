@@ -1,0 +1,21 @@
+{
+  "name": "skowronek-jaskula.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.52.2"
+  },
+  "scripts": {
+    "watch": "sass scss/styles.scss css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skowronek-Jaskula/skowronek-jaskula.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skowronek-Jaskula/skowronek-jaskula.github.io/issues"
+  },
+  "homepage": "https://github.com/Skowronek-Jaskula/skowronek-jaskula.github.io#readme"
+}

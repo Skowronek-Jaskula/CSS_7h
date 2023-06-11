@@ -8,6 +8,6 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.prettier": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": false
   }
 }
