@@ -23,7 +23,7 @@
           Example text to build on the card title and make up the bulk of the
           card's content.
         </p>
-        <button onclick="console.log('Hello World 1')">Button</button>
+        <button onclick="changeBackground(event, 'lime')">Button</button>
       </div>
 
       <div class="card">
@@ -33,7 +33,7 @@
           Example text to build on the card title and make up the bulk of the
           card's content.
         </p>
-        <button onclick="console.log('Hello World 2')">Button</button>
+        <button onclick="changeBackground(event, 'grey')">Button</button>
       </div>
 
       <div class="card">
@@ -43,7 +43,7 @@
           Example text to build on the card title and make up the bulk of the
           card's content.
         </p>
-        <button onclick="console.log('Hello World 3')">Button</button>
+        <button onclick="changeBackground(event, 'purple')">Button</button>
       </div>
 
       <div class="card">
@@ -53,8 +53,14 @@
           Example text to build on the card title and make up the bulk of the
           card's content.
         </p>
-        <button onclick="console.log('Hello World 4')">Button</button>
+        <button onclick="changeBackground(event, '#45678f')">Button</button>
       </div>
     </section>
+    <script>
+      function changeBackground($event, color) {
+        const elParent = $event.target.parentNode;
+        elParent.style.backgroundColor = color;
+      }
+    </script>
   </body>
 </html>
