@@ -32,3 +32,26 @@ button {
   border: 0;
   padding: 8px 24px;
 }
+
+$colors: (
+  1: lime,
+  2: purple,
+  3: pink,
+  4: yellow,
+  5: orange,
+);
+
+.sth {
+  margin-top: 1rem;
+  span {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    @each $item, $color in $colors {
+      &:nth-child(#{$item}) {
+        background: $color;
+        opacity: calc(0.2 * $item);
+      }
+    }
+  }
+}
