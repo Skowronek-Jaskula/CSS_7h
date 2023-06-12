@@ -3,7 +3,6 @@
     "source.fixAll.prettier": true,
     "source.fixAll.stylelint": false
   },
-  "stylelint.configFile": "stylelint.config.js",
   "liveServer.settings.port": 5501,
   "editor.fontSize": 16
 }
