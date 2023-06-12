@@ -1,1 +1,13 @@
 $primary-color: #862843;
+
+:root {
+  --footer-height: 480px;
+  --header-height: 48px;
+
+  @media (width >= 640px) {
+    --footer-height: 360px;
+  }
+  @media (width >= 768px) {
+    --footer-height: 270px;
+  }
+}
