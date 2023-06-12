@@ -1,5 +1,6 @@
-footer {
-  background-color: #6a6a6a;
+@use "./variables";
+.footer {
+  background-color: variables.$primary-color;
   color: white;
   height: 250px;
   padding: 10px 100px;
